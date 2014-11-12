@@ -1,0 +1,1 @@
+ NODE_ENV='development' ./node_modules/.bin/supervisor -w . index.js
