@@ -5,7 +5,6 @@ var config = require('_lib/config'),
 // Load the models first
 require('_lib/sample_db')(function(err){
     if(err) throw err;
-    console.log('loaded',require('_lib/sample_db'));
     //Create the express app once the models are loaded;
     createExpressApp();
 })
